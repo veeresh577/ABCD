@@ -1,0 +1,1120 @@
+<br>Inside Antenna Power setting Method
+<br>getTransmitPowerIndex for antenna 1 is 185<br>getTransmitPowerIndex for antenna 2 is 185<br>getTransmitPowerIndex for antenna 3 is 185<br>getTransmitPowerIndex for antenna 4 is 185<br><br>Block Write Test cases
+<br>Block Erase Wait Test cases
+<br>==============================================================================
+<br>Varying the  pointer and word count = 2 bytes for Reserved Bank
+<br>==============================================================================
+<br><a name=Java-FUN-105.1</a><br><br><b>Java-FUN-105.1</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_RESERVED Offset: 0 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+ EPC  :BEDD11112222333344445555 memBank MEMORY_BANK_USER  memoryBank Data :1111222233334444555566667777888899990000AAAABBBBCCCCDDDDEEEEFFFF1111222233334444555566667777888899990000AAAABBBBCCCCDDDDEEEEFFFF length  :64Op code: ACCESS_OPERATION_READOp Status: ACCESS_SUCCESS
+<br>
+
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_RESERVED Offset: 0 Count: 2<br>Calling ReadWait API<br> OperationFailureException:Tag read failed
+<br> OperationFailureException:Function succeeded
+
+
+
+ PassCount = 0     FailCount = 1
+<br>Expected Result:0000
+ Actual Result: null
+<br>Java-FUN-105.1:BlockErase-Reservedcount 2  Offset 0:PASSED
+<br><a name=Java-FUN-105.2</a><br><br><b>Java-FUN-105.2</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_RESERVED Offset: 2 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_RESERVED Offset: 2 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:0000
+ Actual Result: 0000
+<br>Java-FUN-105.2:BlockErase-Reservedcount 2  Offset 2:PASSED
+<br><a name=Java-FUN-105.3</a><br><br><b>Java-FUN-105.3</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_RESERVED Offset: 4 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_RESERVED Offset: 4 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:0000
+ Actual Result: 0000
+<br>Java-FUN-105.3:BlockErase-Reservedcount 2  Offset 4:PASSED
+<br><a name=Java-FUN-105.4</a><br><br><b>Java-FUN-105.4</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_RESERVED Offset: 6 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_RESERVED Offset: 6 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:0000
+ Actual Result: 0000
+<br>Java-FUN-105.4:BlockErase-Reservedcount 2  Offset 6:PASSED
+<br>============================================================================
+<br> varying the word count and pointer = 0 For Reserved Memory Bank
+<br>=============================================================================
+<br><a name=Java-FUN-105.5</a><br><br><b>Java-FUN-105.5</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_RESERVED Offset: 0 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_RESERVED Offset: 0 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:0000
+ Actual Result: 0000
+<br>Java-FUN-105.5:BlockErase-Reservedoffset 0  count 2:PASSED
+<br><a name=Java-FUN-105.6</a><br><br><b>Java-FUN-105.6</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_RESERVED Offset: 0 Byte count: 4<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_RESERVED Offset: 0 Count: 4<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:00000000
+ Actual Result: 00000000
+<br>Java-FUN-105.6:BlockErase-Reservedoffset 0  count 4:PASSED
+<br><a name=Java-FUN-105.7</a><br><br><b>Java-FUN-105.7</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_RESERVED Offset: 0 Byte count: 6<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_RESERVED Offset: 0 Count: 6<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:000000000000
+ Actual Result: 000000000000
+<br>Java-FUN-105.7:BlockErase-Reservedoffset 0  count 6:PASSED
+<br><a name=Java-FUN-105.8</a><br><br><b>Java-FUN-105.8</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_RESERVED Offset: 0 Byte count: 8<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_RESERVED Offset: 0 Count: 8<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:0000000000000000
+ Actual Result: 0000000000000000
+<br>Java-FUN-105.8:BlockErase-Reservedoffset 0  count 8:PASSED
+<br>=================================================================
+<br> Block Erase For User Memory Bank.....................
+<br> varying the pointer , word count = 2bytes For User Memory Bank
+<br>===============================================================
+<br><a name=Java-FUN-105.9</a><br><br><b>Java-FUN-105.9</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.9:BlockErase-USERcount 2bytes  offset 0:PASSED
+<br><a name=Java-FUN-105.10</a><br><br><b>Java-FUN-105.10</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 2 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 2 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.10:BlockErase-USERcount 2bytes  offset 2:PASSED
+<br><a name=Java-FUN-105.11</a><br><br><b>Java-FUN-105.11</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 4 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 4 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.11:BlockErase-USERcount 2bytes  offset 4:PASSED
+<br><a name=Java-FUN-105.12</a><br><br><b>Java-FUN-105.12</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 6 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 6 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.12:BlockErase-USERcount 2bytes  offset 6:PASSED
+<br><a name=Java-FUN-105.13</a><br><br><b>Java-FUN-105.13</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 8 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 8 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.13:BlockErase-USERcount 2bytes  offset 8:PASSED
+<br><a name=Java-FUN-105.14</a><br><br><b>Java-FUN-105.14</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 10 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 10 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.14:BlockErase-USERcount 2bytes  offset 10:PASSED
+<br><a name=Java-FUN-105.15</a><br><br><b>Java-FUN-105.15</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 12 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 12 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 1
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.15:BlockErase-USERcount 2bytes  offset 12:PASSED
+<br><a name=Java-FUN-105.16</a><br><br><b>Java-FUN-105.16</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 14 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 14 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.16:BlockErase-USERcount 2bytes  offset 14:PASSED
+<br><a name=Java-FUN-105.17</a><br><br><b>Java-FUN-105.17</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 16 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 16 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.17:BlockErase-USERcount 2bytes  offset 16:PASSED
+<br><a name=Java-FUN-105.18</a><br><br><b>Java-FUN-105.18</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 18 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 18 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.18:BlockErase-USERcount 2bytes  offset 18:PASSED
+<br><a name=Java-FUN-105.19</a><br><br><b>Java-FUN-105.19</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 20 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 20 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.19:BlockErase-USERcount 2bytes  offset 20:PASSED
+<br><a name=Java-FUN-105.20</a><br><br><b>Java-FUN-105.20</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 22 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 22 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.20:BlockErase-USERcount 2bytes  offset 22:PASSED
+<br><a name=Java-FUN-105.21</a><br><br><b>Java-FUN-105.21</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 24 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 24 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.21:BlockErase-USERcount 2bytes  offset 24:PASSED
+<br><a name=Java-FUN-105.22</a><br><br><b>Java-FUN-105.22</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 26 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 26 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.22:BlockErase-USERcount 2bytes  offset 26:PASSED
+<br><a name=Java-FUN-105.23</a><br><br><b>Java-FUN-105.23</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 28 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 28 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.23:BlockErase-USERcount 2bytes  offset 28:PASSED
+<br><a name=Java-FUN-105.24</a><br><br><b>Java-FUN-105.24</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 30 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 30 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.24:BlockErase-USERcount 2bytes  offset 30:PASSED
+<br><a name=Java-FUN-105.25</a><br><br><b>Java-FUN-105.25</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 32 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 32 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.25:BlockErase-USERcount 2bytes  offset 32:PASSED
+<br><a name=Java-FUN-105.26</a><br><br><b>Java-FUN-105.26</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 34 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 34 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.26:BlockErase-USERcount 2bytes  offset 34:PASSED
+<br><a name=Java-FUN-105.27</a><br><br><b>Java-FUN-105.27</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 36 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 36 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.27:BlockErase-USERcount 2bytes  offset 36:PASSED
+<br><a name=Java-FUN-105.28</a><br><br><b>Java-FUN-105.28</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 38 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 38 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.28:BlockErase-USERcount 2bytes  offset 38:PASSED
+<br><a name=Java-FUN-105.29</a><br><br><b>Java-FUN-105.29</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 40 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 40 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.29:BlockErase-USERcount 2bytes  offset 40:PASSED
+<br><a name=Java-FUN-105.30</a><br><br><b>Java-FUN-105.30</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 42 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 42 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.30:BlockErase-USERcount 2bytes  offset 42:PASSED
+<br><a name=Java-FUN-105.31</a><br><br><b>Java-FUN-105.31</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 44 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 44 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.31:BlockErase-USERcount 2bytes  offset 44:PASSED
+<br><a name=Java-FUN-105.32</a><br><br><b>Java-FUN-105.32</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 46 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 46 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.32:BlockErase-USERcount 2bytes  offset 46:PASSED
+<br><a name=Java-FUN-105.33</a><br><br><b>Java-FUN-105.33</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 48 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 48 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.33:BlockErase-USERcount 2bytes  offset 48:PASSED
+<br><a name=Java-FUN-105.34</a><br><br><b>Java-FUN-105.34</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 50 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 50 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.34:BlockErase-USERcount 2bytes  offset 50:PASSED
+<br><a name=Java-FUN-105.35</a><br><br><b>Java-FUN-105.35</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 52 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 52 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.35:BlockErase-USERcount 2bytes  offset 52:PASSED
+<br><a name=Java-FUN-105.36</a><br><br><b>Java-FUN-105.36</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 54 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 54 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.36:BlockErase-USERcount 2bytes  offset 54:PASSED
+<br><a name=Java-FUN-105.37</a><br><br><b>Java-FUN-105.37</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 56 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 56 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.37:BlockErase-USERcount 2bytes  offset 56:PASSED
+<br><a name=Java-FUN-105.38</a><br><br><b>Java-FUN-105.38</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 58 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 58 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.38:BlockErase-USERcount 2bytes  offset 58:PASSED
+<br><a name=Java-FUN-105.39</a><br><br><b>Java-FUN-105.39</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 60 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 60 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:Erased Memory Banks with Zero data. i.e 0000
+ Actual Result: 0000
+<br>Java-FUN-105.39:BlockErase-USERcount 2bytes  offset 60:PASSED
+<br>============================================================================
+<br> varying the word count and pointer = 0 For User Memory Bank
+<br>=============================================================================
+<br><a name=Java-FUN-105.40</a><br><br><b>Java-FUN-105.40</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 2
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 2<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 2<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:0000
+ Actual Result: 0000
+<br>Java-FUN-105.40:BlockErase-Useroffset 0  count 2:PASSED
+<br><a name=Java-FUN-105.41</a><br><br><b>Java-FUN-105.41</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 2
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 4<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 4<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:00000000
+ Actual Result: 00000000
+<br>Java-FUN-105.41:BlockErase-Useroffset 0  count 4:PASSED
+<br><a name=Java-FUN-105.42</a><br><br><b>Java-FUN-105.42</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 4
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 6<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 6<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:000000000000
+ Actual Result: 000000000000
+<br>Java-FUN-105.42:BlockErase-Useroffset 0  count 6:PASSED
+<br><a name=Java-FUN-105.43</a><br><br><b>Java-FUN-105.43</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 6
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 8<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 8<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:0000000000000000
+ Actual Result: 0000000000000000
+<br>Java-FUN-105.43:BlockErase-Useroffset 0  count 8:PASSED
+<br><a name=Java-FUN-105.44</a><br><br><b>Java-FUN-105.44</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 8
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 10<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 10<br>Calling ReadWait API<br> OperationFailureException:Tag read failed
+<br> OperationFailureException:Function succeeded
+
+
+
+ PassCount = 0     FailCount = 1
+<br>Expected Result:00000000000000000000
+ Actual Result: 0000000000000000
+<br>Java-FUN-105.44:BlockErase-USERoffset 0  count 10:FAILED
+<br><a name=Java-FUN-105.45</a><br><br><b>Java-FUN-105.45</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 10
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 12<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 12<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:000000000000000000000000
+ Actual Result: 000000000000000000000000
+<br>Java-FUN-105.45:BlockErase-Useroffset 0  count 12:PASSED
+<br><a name=Java-FUN-105.46</a><br><br><b>Java-FUN-105.46</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 12
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 14<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 14<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:0000000000000000000000000000
+ Actual Result: 0000000000000000000000000000
+<br>Java-FUN-105.46:BlockErase-Useroffset 0  count 14:PASSED
+<br><a name=Java-FUN-105.47</a><br><br><b>Java-FUN-105.47</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 14
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 16<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 16<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:00000000000000000000000000000000
+ Actual Result: 00000000000000000000000000000000
+<br>Java-FUN-105.47:BlockErase-Useroffset 0  count 16:PASSED
+<br><a name=Java-FUN-105.48</a><br><br><b>Java-FUN-105.48</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 16
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 18<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 18<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:000000000000000000000000000000000000
+ Actual Result: 000000000000000000000000000000000000
+<br>Java-FUN-105.48:BlockErase-Useroffset 0  count 18:PASSED
+<br><a name=Java-FUN-105.49</a><br><br><b>Java-FUN-105.49</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 18
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 20<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 20<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:0000000000000000000000000000000000000000
+ Actual Result: 0000000000000000000000000000000000000000
+<br>Java-FUN-105.49:BlockErase-Useroffset 0  count 20:PASSED
+<br><a name=Java-FUN-105.50</a><br><br><b>Java-FUN-105.50</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 20
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 22<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 22<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:00000000000000000000000000000000000000000000
+ Actual Result: 00000000000000000000000000000000000000000000
+<br>Java-FUN-105.50:BlockErase-Useroffset 0  count 22:PASSED
+<br><a name=Java-FUN-105.51</a><br><br><b>Java-FUN-105.51</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 22
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 24<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 24<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:000000000000000000000000000000000000000000000000
+ Actual Result: 000000000000000000000000000000000000000000000000
+<br>Java-FUN-105.51:BlockErase-Useroffset 0  count 24:PASSED
+<br><a name=Java-FUN-105.52</a><br><br><b>Java-FUN-105.52</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 24
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 26<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 26<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:0000000000000000000000000000000000000000000000000000
+ Actual Result: 0000000000000000000000000000000000000000000000000000
+<br>Java-FUN-105.52:BlockErase-Useroffset 0  count 26:PASSED
+<br><a name=Java-FUN-105.53</a><br><br><b>Java-FUN-105.53</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 26
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 28<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 28<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:00000000000000000000000000000000000000000000000000000000
+ Actual Result: 00000000000000000000000000000000000000000000000000000000
+<br>Java-FUN-105.53:BlockErase-Useroffset 0  count 28:PASSED
+<br><a name=Java-FUN-105.54</a><br><br><b>Java-FUN-105.54</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 28
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 30<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 30<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:000000000000000000000000000000000000000000000000000000000000
+ Actual Result: 000000000000000000000000000000000000000000000000000000000000
+<br>Java-FUN-105.54:BlockErase-Useroffset 0  count 30:PASSED
+<br><a name=Java-FUN-105.55</a><br><br><b>Java-FUN-105.55</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 30
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 32<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 32<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:0000000000000000000000000000000000000000000000000000000000000000
+ Actual Result: 0000000000000000000000000000000000000000000000000000000000000000
+<br>Java-FUN-105.55:BlockErase-Useroffset 0  count 32:PASSED
+<br><a name=Java-FUN-105.56</a><br><br><b>Java-FUN-105.56</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 32
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 34<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 34<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:00000000000000000000000000000000000000000000000000000000000000000000
+ Actual Result: 00000000000000000000000000000000000000000000000000000000000000000000
+<br>Java-FUN-105.56:BlockErase-Useroffset 0  count 34:PASSED
+<br><a name=Java-FUN-105.57</a><br><br><b>Java-FUN-105.57</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 34
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 36<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 36<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:000000000000000000000000000000000000000000000000000000000000000000000000
+ Actual Result: 000000000000000000000000000000000000000000000000000000000000000000000000
+<br>Java-FUN-105.57:BlockErase-Useroffset 0  count 36:PASSED
+<br><a name=Java-FUN-105.58</a><br><br><b>Java-FUN-105.58</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 36
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 38<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 38<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:0000000000000000000000000000000000000000000000000000000000000000000000000000
+ Actual Result: 0000000000000000000000000000000000000000000000000000000000000000000000000000
+<br>Java-FUN-105.58:BlockErase-Useroffset 0  count 38:PASSED
+<br><a name=Java-FUN-105.59</a><br><br><b>Java-FUN-105.59</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 38
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 40<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 40<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:00000000000000000000000000000000000000000000000000000000000000000000000000000000
+ Actual Result: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+<br>Java-FUN-105.59:BlockErase-Useroffset 0  count 40:PASSED
+<br><a name=Java-FUN-105.60</a><br><br><b>Java-FUN-105.60</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 40
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 42<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 42<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ Actual Result: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+<br>Java-FUN-105.60:BlockErase-Useroffset 0  count 42:PASSED
+<br><a name=Java-FUN-105.61</a><br><br><b>Java-FUN-105.61</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 42
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 44<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 44<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ Actual Result: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+<br>Java-FUN-105.61:BlockErase-Useroffset 0  count 44:PASSED
+<br><a name=Java-FUN-105.62</a><br><br><b>Java-FUN-105.62</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 44
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 46<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 46<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ Actual Result: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+<br>Java-FUN-105.62:BlockErase-Useroffset 0  count 46:PASSED
+<br><a name=Java-FUN-105.63</a><br><br><b>Java-FUN-105.63</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 46
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 48<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 48<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ Actual Result: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+<br>Java-FUN-105.63:BlockErase-Useroffset 0  count 48:PASSED
+<br><a name=Java-FUN-105.64</a><br><br><b>Java-FUN-105.64</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 48
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 50<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 50<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ Actual Result: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+<br>Java-FUN-105.64:BlockErase-Useroffset 0  count 50:PASSED
+<br><a name=Java-FUN-105.65</a><br><br><b>Java-FUN-105.65</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 50
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 52<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 52<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ Actual Result: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+<br>Java-FUN-105.65:BlockErase-Useroffset 0  count 52:PASSED
+<br><a name=Java-FUN-105.66</a><br><br><b>Java-FUN-105.66</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 52
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 54<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 54<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ Actual Result: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+<br>Java-FUN-105.66:BlockErase-Useroffset 0  count 54:PASSED
+<br><a name=Java-FUN-105.67</a><br><br><b>Java-FUN-105.67</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 54
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 56<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 56<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ Actual Result: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+<br>Java-FUN-105.67:BlockErase-Useroffset 0  count 56:PASSED
+<br><a name=Java-FUN-105.68</a><br><br><b>Java-FUN-105.68</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 56
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 58<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 58<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ Actual Result: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+<br>Java-FUN-105.68:BlockErase-Useroffset 0  count 58:PASSED
+<br><a name=Java-FUN-105.69</a><br><br><b>Java-FUN-105.69</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 58
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 60<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 60<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ Actual Result: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+<br>Java-FUN-105.69:BlockErase-Useroffset 0  count 60:PASSED
+<br><a name=Java-FUN-105.70</a><br><br><b>Java-FUN-105.70</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 60
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 62<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 62<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ Actual Result: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+<br>Java-FUN-105.70:BlockErase-Useroffset 0  count 62:PASSED
+<br><a name=Java-FUN-105.71</a><br><br><b>Java-FUN-105.71</b>
+<br><b>Description:</b> BlockEraseWait on 
+<br><br>getByteCount: 62
+<br>Inside the WriteWait Function<br>Write Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Byte count: 64<br>Calling BlockEraseWait API<br>BlockEraseWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Inside the ReadWait Function<br>Read Params
+<br>Memory bank: MEMORY_BANK_USER Offset: 0 Count: 64<br>Calling ReadWait API<br>ReadWait API:Success
+
+
+ PassCount = 1     FailCount = 0
+<br>Expected Result:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ Actual Result: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+<br>Java-FUN-105.71:BlockErase-Useroffset 0  count 64:PASSED

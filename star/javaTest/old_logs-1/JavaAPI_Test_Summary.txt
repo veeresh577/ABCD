@@ -1,0 +1,41 @@
+C dll version Info : 5.5.1.7    Reader IP: 157.235.208.60
+Reader Model : 75004
+FW Version : 1.3.13.0
+isConnected : true
+Java Regression Start Time 2017-03-10 21:31:02
+
+
+
+Tag 1:
+
+
+tag ID is	A22FA22FA22FA22FA22FA22F	 length :64<br>
+
+TID ID is	E200600301772A0D	 length :64<br>
+
+USER ID is	A22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22FA22F	len :64<br>
+
+Tag 2:
+
+
+tag ID is	B22FB22FB22FB22FB22FB22F	 len is :64<br>
+
+TID ID is	E200600301762989	len is :64<br>
+
+
+USER ID is	B22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22FB22Flen is :64<br>
+
+
+
+
+
+JavaAPI:Reader Capabilities:1:0:0
+
+JavaAPI:Test Singulation State Un-Aware:70:2:0
+JavaAPI:Test Singulation State Un-Aware-Auto:70:2:0
+JavaAPI:State Un-Aware test cases:6:0:0
+JavaAPI:State Aware test cases: Single filter: 103:17:0
+JavaAPI:State Aware: 2 filters: 27:3:0
+JavaAPI:Test Post Filters :124:6:0
+JavaAPI:Test RSSI Filters:11:0:0
+JavaAPI:Test Tag Events( Vis,InVis,Back2Vis):26:1:0

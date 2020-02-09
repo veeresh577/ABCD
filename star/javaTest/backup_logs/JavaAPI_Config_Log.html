@@ -1,0 +1,459 @@
+<html><br>
+<body><br>
+<br>CONFIG GPIGPO test cases
+<br><a name=Java-FUN-103.1</a><br><br><b>Java-FUN-103.1</b>
+<br><b>Description:</b>
+ Gets the number of GPI ports supported by the reader
+<br>Expected Result: API should return no.of GPI ports supported
+<br>Actual Result: 2
+<br>Java-FUN-103.1:GPI.getLength():PASSED
+<br><a name=Java-FUN-103.2</a><br><br><b>Java-FUN-103.2</b>
+<br><b>Description:</b>
+ Gets the number of GPO ports supported by the reader
+<br>Expected Result: API should return no.of GPO ports supported
+<br>Actual Result: 3
+<br>Java-FUN-103.2:GPO.getLength():PASSED
+<br><a name=Java-FUN-103.3</a><br><br><b>Java-FUN-103.3</b>
+<br><b>Description:</b>
+ Test GPI disable ports: 1
+<br>Expected Result: API should enable the GPI ports
+<br>Actual Result: Port: 1 true
+<br>Java-FUN-103.3:GPI.enablePort():PASSED
+<br><a name=Java-FUN-103.4</a><br><br><b>Java-FUN-103.4</b>
+<br><b>Description:</b>
+ Test GPI disable ports: 2
+<br>Expected Result: API should enable the GPI ports
+<br>Actual Result: Port: 2 true
+<br>Java-FUN-103.4:GPI.enablePort():PASSED
+<br><a name=Java-FUN-103.5</a><br><br><b>Java-FUN-103.5</b>
+<br><b>Description:</b>
+ Test GPI disable ports: 1
+<br>Expected Result: API should disable the GPI ports
+<br>Actual Result: Port: 1 false
+<br>Java-FUN-103.5:GPI.enablePort():PASSED
+<br><a name=Java-FUN-103.6</a><br><br><b>Java-FUN-103.6</b>
+<br><b>Description:</b>
+ Test GPI disable ports: 2
+<br>Expected Result: API should disable the GPI ports
+<br>Actual Result: Port: 2 false
+<br>Java-FUN-103.6:GPI.enablePort():PASSED
+<br><a name=Java-FUN-103.7</a><br><br><b>Java-FUN-103.7</b>
+<br><b>Description:</b>
+ Test GPO disable ports: 1
+<br>Expected Result: API should enable the GPO ports
+<br>Actual Result: Port: 1 TRUE
+<br>Java-FUN-103.7:GPO.enablePort():PASSED
+<br><a name=Java-FUN-103.8</a><br><br><b>Java-FUN-103.8</b>
+<br><b>Description:</b>
+ Test GPO disable ports: 2
+<br>Expected Result: API should enable the GPO ports
+<br>Actual Result: Port: 2 TRUE
+<br>Java-FUN-103.8:GPO.enablePort():PASSED
+<br><a name=Java-FUN-103.9</a><br><br><b>Java-FUN-103.9</b>
+<br><b>Description:</b>
+ Test GPO disable ports: 3
+<br>Expected Result: API should enable the GPO ports
+<br>Actual Result: Port: 3 TRUE
+<br>Java-FUN-103.9:GPO.enablePort():PASSED
+<br><a name=Java-FUN-103.10</a><br><br><b>Java-FUN-103.10</b>
+<br><b>Description:</b>
+ Test GPO disable ports: 1
+<br>Expected Result: API should disable the GPO ports
+<br>Actual Result: Port: 1 FALSE
+<br>Java-FUN-103.10:GPO.enablePort():PASSED
+<br><a name=Java-FUN-103.11</a><br><br><b>Java-FUN-103.11</b>
+<br><b>Description:</b>
+ Test GPO disable ports: 2
+<br>Expected Result: API should disable the GPO ports
+<br>Actual Result: Port: 2 FALSE
+<br>Java-FUN-103.11:GPO.enablePort():PASSED
+<br><a name=Java-FUN-103.12</a><br><br><b>Java-FUN-103.12</b>
+<br><b>Description:</b>
+ Test GPO disable ports: 3
+<br>Expected Result: API should disable the GPO ports
+<br>Actual Result: Port: 3 FALSE
+<br>Java-FUN-103.12:GPO.enablePort():PASSED
+<br>Antenna CONFIG test cases
+<br>For Antenna :2
+<br><a name=Java-FUN-103.13</a><br><br><b>Java-FUN-103.13</b>
+<br><b>Description:</b>
+ Setting receive sensitivity to: 0
+<br>Expected Result: Should not throw any exception
+<br>Actual Result: 0
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-103.13:setReceiveSensitivityIndex:FAILED
+<br><a name=Java-FUN-103.14</a><br><br><b>Java-FUN-103.14</b>
+<br><b>Description:</b>
+ Setting receive sensitivity to: 10000
+<br>Expected Result: Should not throw any exception
+<br>InvalidUsageExceptionSetConfig Parameter out of RangerfReceiverIndex:10000 is out of Range
+<br>Java-FUN-103.14:setReceiveSensitivityIndex:PASSED
+<br><a name=Java-FUN-103.15</a><br><br><b>Java-FUN-103.15</b>
+<br><b>Description:</b>
+ Transmit Frequency: 
+<br>Expected Result:  Returns the Hop table for the given hop table index
+<br>HoppingEnabled: true
+<br>getHopTableID: 1
+<br>Hop frequencies: 
+921250,
+920750,
+925250,
+922250,
+923250,
+924250,
+922750,
+921750,
+924750,
+<br>Java-FUN-103.15:FrequencyHopInfo-Hopping:PASSED
+<br>
+<br>For Antenna :2
+<br>Setting the Hop table index 1
+<br><a name=Java-FUN-103.16</a><br><br><b>Java-FUN-103.16</b>
+<br><b>Description:</b>
+ Setting Transmit Frequency: 
+<br>Expected Result:  Sets the Hop table for the given hop table index
+<br>Getting the Hop index 1
+<br>Java-FUN-103.16:set and getTransmitFrequencyIndex:PASSED
+<br>For Antenna :3
+<br>Setting the Hop table index 1
+<br><a name=Java-FUN-103.17</a><br><br><b>Java-FUN-103.17</b>
+<br><b>Description:</b>
+ Setting Transmit Frequency: 
+<br>Expected Result:  Sets the Hop table for the given hop table index
+<br>Getting the Hop index 1
+<br>Java-FUN-103.17:set and getTransmitFrequencyIndex:PASSED
+<br>For Antenna :4
+<br>Setting the Hop table index 1
+<br><a name=Java-FUN-103.18</a><br><br><b>Java-FUN-103.18</b>
+<br><b>Description:</b>
+ Setting Transmit Frequency: 
+<br>Expected Result:  Sets the Hop table for the given hop table index
+<br>Getting the Hop index 1
+<br>Java-FUN-103.18:set and getTransmitFrequencyIndex:PASSED
+<br>ArrayIndexOutOfBoundsException4
+<br><a name=Java-FUN-104</a><br><br><b>Java-FUN-104</b>
+<br><b>Description:</b>
+ Setting and Getting sessionsSESSION_S0
+<br>Expected Result:  Sets the session singulation paramter and inventory should happen
+<br>For Antenna0
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-104: setSession:FAILED
+<br><a name=Java-FUN-104.1</a><br><br><b>Java-FUN-104.1</b>
+<br><b>Description:</b>
+ Setting and Getting sessionsSESSION_S1
+<br>Expected Result:  Sets the session singulation paramter and inventory should happen
+<br>For Antenna1
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-104.1: setSession:FAILED
+<br><a name=Java-FUN-104.2</a><br><br><b>Java-FUN-104.2</b>
+<br><b>Description:</b>
+ Setting and Getting sessionsSESSION_S2
+<br>Expected Result:  Sets the session singulation paramter and inventory should happen
+<br>For Antenna2
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-104.2: setSession:FAILED
+<br><a name=Java-FUN-104.3</a><br><br><b>Java-FUN-104.3</b>
+<br><b>Description:</b>
+ Setting and Getting sessionsSESSION_S3
+<br>Expected Result:  Sets the session singulation paramter and inventory should happen
+<br>For Antenna3
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-104.3: setSession:FAILED
+<br><a name=Java-FUN-104.4</a><br><br><b>Java-FUN-104.4</b>
+<br><b>Description:</b>
+ Setting and Getting sessionsSESSION_S0
+<br>Expected Result:  Sets the session singulation paramter and inventory should happen
+<br>For Antenna4
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-104.4: setSession:FAILED
+<br><a name=Java-FUN-104.5</a><br><br><b>Java-FUN-104.5</b>
+<br><b>Description:</b>
+ Setting and Getting sessionsSESSION_S0
+<br>Expected Result:  Sets the session singulation paramter and inventory should happen
+<br>For Antenna0
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-104.5: setSession:FAILED
+<br><a name=Java-FUN-104.6</a><br><br><b>Java-FUN-104.6</b>
+<br><b>Description:</b>
+ Setting and Getting sessionsSESSION_S1
+<br>Expected Result:  Sets the session singulation paramter and inventory should happen
+<br>For Antenna1
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-104.6: setSession:FAILED
+<br><a name=Java-FUN-104.7</a><br><br><b>Java-FUN-104.7</b>
+<br><b>Description:</b>
+ Setting and Getting sessionsSESSION_S2
+<br>Expected Result:  Sets the session singulation paramter and inventory should happen
+<br>For Antenna2
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-104.7: setSession:FAILED
+<br><a name=Java-FUN-104.8</a><br><br><b>Java-FUN-104.8</b>
+<br><b>Description:</b>
+ Setting and Getting sessionsSESSION_S3
+<br>Expected Result:  Sets the session singulation paramter and inventory should happen
+<br>For Antenna3
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-104.8: setSession:FAILED
+<br><a name=Java-FUN-104.9</a><br><br><b>Java-FUN-104.9</b>
+<br><b>Description:</b>
+ Setting and Getting sessionsSESSION_S0
+<br>Expected Result:  Sets the session singulation paramter and inventory should happen
+<br>For Antenna4
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-104.9: setSession:FAILED
+<br><a name=Java-FUN-104.10</a><br><br><b>Java-FUN-104.10</b>
+<br><b>Description:</b>
+ Setting and Getting sessionsSESSION_S0
+<br>Expected Result:  Sets the session singulation paramter and inventory should happen
+<br>For Antenna0
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-104.10: setSession:FAILED
+<br><a name=Java-FUN-104.11</a><br><br><b>Java-FUN-104.11</b>
+<br><b>Description:</b>
+ Setting and Getting sessionsSESSION_S1
+<br>Expected Result:  Sets the session singulation paramter and inventory should happen
+<br>For Antenna1
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-104.11: setSession:FAILED
+<br><a name=Java-FUN-104.12</a><br><br><b>Java-FUN-104.12</b>
+<br><b>Description:</b>
+ Setting and Getting sessionsSESSION_S2
+<br>Expected Result:  Sets the session singulation paramter and inventory should happen
+<br>For Antenna2
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-104.12: setSession:FAILED
+<br><a name=Java-FUN-104.13</a><br><br><b>Java-FUN-104.13</b>
+<br><b>Description:</b>
+ Setting and Getting sessionsSESSION_S3
+<br>Expected Result:  Sets the session singulation paramter and inventory should happen
+<br>For Antenna3
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-104.13: setSession:FAILED
+<br><a name=Java-FUN-104.14</a><br><br><b>Java-FUN-104.14</b>
+<br><b>Description:</b>
+ Setting and Getting sessionsSESSION_S0
+<br>Expected Result:  Sets the session singulation paramter and inventory should happen
+<br>For Antenna4
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-104.14: setSession:FAILED
+<br><a name=Java-FUN-104.15</a><br><br><b>Java-FUN-104.15</b>
+<br><b>Description:</b>
+ Setting and Getting sessionsSESSION_S0
+<br>Expected Result:  Sets the session singulation paramter and inventory should happen
+<br>For Antenna0
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-104.15: setSession:FAILED
+<br><a name=Java-FUN-104.16</a><br><br><b>Java-FUN-104.16</b>
+<br><b>Description:</b>
+ Setting and Getting sessionsSESSION_S1
+<br>Expected Result:  Sets the session singulation paramter and inventory should happen
+<br>For Antenna1
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-104.16: setSession:FAILED
+<br><a name=Java-FUN-104.17</a><br><br><b>Java-FUN-104.17</b>
+<br><b>Description:</b>
+ Setting and Getting sessionsSESSION_S2
+<br>Expected Result:  Sets the session singulation paramter and inventory should happen
+<br>For Antenna2
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-104.17: setSession:FAILED
+<br><a name=Java-FUN-104.18</a><br><br><b>Java-FUN-104.18</b>
+<br><b>Description:</b>
+ Setting and Getting sessionsSESSION_S3
+<br>Expected Result:  Sets the session singulation paramter and inventory should happen
+<br>For Antenna3
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-104.18: setSession:FAILED
+<br><a name=Java-FUN-104.19</a><br><br><b>Java-FUN-104.19</b>
+<br><b>Description:</b>
+ Setting and Getting sessionsSESSION_S0
+<br>Expected Result:  Sets the session singulation paramter and inventory should happen
+<br>For Antenna4
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-104.19: setSession:FAILED
+<br><a name=Java-FUN-105</a><br><br><b>Java-FUN-105</b>
+<br><b>Description:</b>
+ Setting and Getting transit time10
+<br>Expected Result:  Sets the transit time and inventory should happen
+<br>For Antenna1
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-105: setTagTransitTime:FAILED
+<br><a name=Java-FUN-105.1</a><br><br><b>Java-FUN-105.1</b>
+<br><b>Description:</b>
+ Setting and Getting transit time100
+<br>Expected Result:  Sets the transit time and inventory should happen
+<br>For Antenna1
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-105.1: setTagTransitTime:FAILED
+<br><a name=Java-FUN-105.2</a><br><br><b>Java-FUN-105.2</b>
+<br><b>Description:</b>
+ Setting and Getting transit time10
+<br>Expected Result:  Sets the transit time and inventory should happen
+<br>For Antenna2
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-105.2: setTagTransitTime:FAILED
+<br><a name=Java-FUN-105.3</a><br><br><b>Java-FUN-105.3</b>
+<br><b>Description:</b>
+ Setting and Getting transit time100
+<br>Expected Result:  Sets the transit time and inventory should happen
+<br>For Antenna2
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-105.3: setTagTransitTime:FAILED
+<br><a name=Java-FUN-105.4</a><br><br><b>Java-FUN-105.4</b>
+<br><b>Description:</b>
+ Setting and Getting transit time10
+<br>Expected Result:  Sets the transit time and inventory should happen
+<br>For Antenna3
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-105.4: setTagTransitTime:FAILED
+<br><a name=Java-FUN-105.5</a><br><br><b>Java-FUN-105.5</b>
+<br><b>Description:</b>
+ Setting and Getting transit time100
+<br>Expected Result:  Sets the transit time and inventory should happen
+<br>For Antenna3
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-105.5: setTagTransitTime:FAILED
+<br><a name=Java-FUN-105.6</a><br><br><b>Java-FUN-105.6</b>
+<br><b>Description:</b>
+ Setting and Getting transit time10
+<br>Expected Result:  Sets the transit time and inventory should happen
+<br>For Antenna4
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-105.6: setTagTransitTime:FAILED
+<br><a name=Java-FUN-105.7</a><br><br><b>Java-FUN-105.7</b>
+<br><b>Description:</b>
+ Setting and Getting transit time100
+<br>Expected Result:  Sets the transit time and inventory should happen
+<br>For Antenna4
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-105.7: setTagTransitTime:FAILED
+<br><a name=Java-FUN-106</a><br><br><b>Java-FUN-106</b>
+<br><b>Description:</b>
+ Setting and Getting tag Population100
+<br>Expected Result:  Sets the tag Population and inventory should happen
+<br>For Antenna1
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-106: setTagTransitTime:FAILED
+<br><a name=Java-FUN-106.1</a><br><br><b>Java-FUN-106.1</b>
+<br><b>Description:</b>
+ Setting and Getting tag Population1000
+<br>Expected Result:  Sets the tag Population and inventory should happen
+<br>For Antenna1
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-106.1: setTagTransitTime:FAILED
+<br><a name=Java-FUN-106.2</a><br><br><b>Java-FUN-106.2</b>
+<br><b>Description:</b>
+ Setting and Getting tag Population100
+<br>Expected Result:  Sets the tag Population and inventory should happen
+<br>For Antenna2
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-106.2: setTagTransitTime:FAILED
+<br><a name=Java-FUN-106.3</a><br><br><b>Java-FUN-106.3</b>
+<br><b>Description:</b>
+ Setting and Getting tag Population1000
+<br>Expected Result:  Sets the tag Population and inventory should happen
+<br>For Antenna2
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-106.3: setTagTransitTime:FAILED
+<br><a name=Java-FUN-106.4</a><br><br><b>Java-FUN-106.4</b>
+<br><b>Description:</b>
+ Setting and Getting tag Population100
+<br>Expected Result:  Sets the tag Population and inventory should happen
+<br>For Antenna3
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-106.4: setTagTransitTime:FAILED
+<br><a name=Java-FUN-106.5</a><br><br><b>Java-FUN-106.5</b>
+<br><b>Description:</b>
+ Setting and Getting tag Population1000
+<br>Expected Result:  Sets the tag Population and inventory should happen
+<br>For Antenna3
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-106.5: setTagTransitTime:FAILED
+<br><a name=Java-FUN-106.6</a><br><br><b>Java-FUN-106.6</b>
+<br><b>Description:</b>
+ Setting and Getting tag Population100
+<br>Expected Result:  Sets the tag Population and inventory should happen
+<br>For Antenna4
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-106.6: setTagTransitTime:FAILED
+<br><a name=Java-FUN-106.7</a><br><br><b>Java-FUN-106.7</b>
+<br><b>Description:</b>
+ Setting and Getting tag Population1000
+<br>Expected Result:  Sets the tag Population and inventory should happen
+<br>For Antenna4
+<br> OperationFailureException:Function succeeded
+
+InvalidUsageExceptionPerformInventory Invalid parameter givenADD_ROSPEC: Error in parameter C1G2Filter (Type: 331) for field T (FieldNum: 0)
+<br>Java-FUN-106.7: setTagTransitTime:FAILED

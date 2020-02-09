@@ -1,0 +1,6 @@
+Java-STATE_UNAWARE-182 StateUnAware-filter: PASS
+Java-STATE_UNAWARE-183 StateUnAware-filter: PASS
+Java-STATE_UNAWARE-184 StateUnAware-filter: PASS
+Java-STATE_UNAWARE-185 StateUnAware-filter: PASS
+Java-STATE_UNAWARE-186 StateUnAware-filter: PASS
+Java-STATE_UNAWARE-187 StateUnAware-filter: PASS

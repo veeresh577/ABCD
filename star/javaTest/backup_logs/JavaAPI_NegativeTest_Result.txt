@@ -1,0 +1,51 @@
+<br>Java-NEG-101.1: ReadWait with invalid length:PASSED
+<br>Java-NEG-101.2: ReadWait with invalid offset:PASSED
+<br>Java-NEG-101.3: ReadWait with Empty TagID:PASSED
+<br>Java-NEG-101.4: ReadWait with null TagID:PASSED
+<br>Java-NEG-101.5: ReadWait with Reservedmemory  Invalid length:PASSED
+<br>Java-NEG-101.6: ReadWait with Reservedmemory  Invalid offset:PASSED
+<br>Java-NEG-101.7: ReadWait with Access Params null parameter:PASSED
+<br>Java-NEG-101.8: ReadWait with null TagID:PASSED
+<br>Java-NEG-101.9: ReadEvent with Access Params null parameter:PASSED
+<br>Java-NEG-101.10: WriteWait with invalid length:PASSED
+<br>Java-NEG-101.11: WriteWait with invalid offset:PASSED
+<br>Java-NEG-101.12: WriteWait with Empty tagID:PASSED
+<br>Java-NEG-101.13: WriteWait with Null tagID:PASSED
+<br>Java-NEG-101.14: WriteWait with Reservedmemory  Invalid length:PASSED
+<br>Java-NEG-101.15: WriteWait with Reservedmemory Invalid offset:PASSED
+<br>Java-NEG-101.16: WriteWait with Access Params null parameter:PASSED
+<br>Java-NEG-101.17: WriteWait with zero length:PASSED
+<br>Java-NEG-101.18: WriteWait on TID memory:PASSED
+<br>Java-NEG-101.19: WriteWait with invalid offset:PASSED
+<br>Java-NEG-101.20: WriteEvent with Access Params null parameter:PASSED
+<br>Java-NEG-101.21: WriteEvent with Invalid length:PASSED
+<br>Java-NEG-101.22: WriteEvent with zero length:PASSED
+<br>Java-NEG-101.23: WriteWait on TID memory:PASSED
+<br>Java-NEG-101.24: KillWait with Null tagID:PASSED
+<br>Java-NEG-101.25: KillWait with Empty tagID :PASSED
+<br>Java-NEG-101.26: KillWait with invalid length tagID:PASSED
+<br>Java-NEG-101.27: Kill event Access Param null:PASSED
+<br>Java-NEG-101.28: Lock Wait with null tagID:PASSED
+<br>Java-NEG-101.29: Lock Wait with empty tagID:PASSED
+<br>Java-NEG-101.30: Lock Wait with Access Param null:PASSED
+<br>Java-NEG-101.31: Locking memory bank which is permanently locked:PASSED
+<br>Java-NEG-101.32: Lock Wait with empty tagID:PASSED
+<br>Java-NEG-101.33: Lock Event with Access Param null:PASSED
+<br>Java-NEG-101.34: BlockWriteWait with invalid length :PASSED
+<br>Java-NEG-101.35: BlockWriteWait with invalid offset:PASSED
+<br>Java-NEG-101.36: BlockWriteWait with Empty tagID :PASSED
+<br>Java-NEG-101.37: BlockWriteWait with Null tagID:PASSED
+<br>Java-NEG-101.38: BlockWriteWait Invalid length:PASSED
+<br>Java-NEG-101.39: BlockWriteWait Invalid offset:PASSED
+<br>Java-NEG-101.40: BlockWriteWait with Access Params null parameter:PASSED
+<br>Java-NEG-101.41: BlockWriteWait with Reservedmemory  zero length:PASSED
+<br>Java-NEG-101.42: BlockWriteEvent with Access Params null parameter:PASSED
+<br>Java-NEG-101.43: BlockEraseWait with invalid length:PASSED
+<br>Java-NEG-101.44: BlockEraseWait with invalid offset:PASSED
+<br>Java-NEG-101.45: BlockEraseWait with Empty tagID:PASSED
+<br>Java-NEG-101.46: BlockEraseWait with Null tagID :PASSED
+<br>Java-NEG-101.47: BlockEraseWait with Reservedmemory  Invalid length:PASSED
+<br>Java-NEG-101.48: BlockEraseWait with Reservedmemory  Invalid offset:PASSED
+<br>Java-NEG-101.49: BlockEraseWait with Access Params null parameter:PASSED
+<br>Java-NEG-101.50: BlockEraseWait with Reservedmemory  zero length:PASSED
+<br>Java-NEG-101.51: BlockEraseEvent with Access Params null parameter:PASSED

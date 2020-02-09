@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+X-COMMENT: Main-Class will be added automatically by build
+Main-Class: javatest.Main
+Class-path: ./lib/Symbol.RFID.API3.jar 
+
+

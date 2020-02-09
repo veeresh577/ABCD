@@ -1,0 +1,64 @@
+<html><br>
+<body><br>
+<br><a name=Java-FUN-103.1</a><br><br><b>Java-FUN-103.1</b>
+<br><b>Description:</b>
+ Antenna Power changed to 100 and reset to factory default: 
+<br>Get antenna power Index = 100
+<br>Expected Result:  Power should set to default(220)
+<br>Calling Reset factory default
+<br><b>ActualResult</b>
+<br>Antenna power Index = 200
+<br>Java-FUN-103.1:ResetFactory for Transmit Power:PASSED
+<br><a name=Java-FUN-103.2</a><br><br><b>Java-FUN-103.2</b>
+<br><b>Description:</b>set duty cycle index to 5 and doing a facotry reset 
+<br><b>Expected:</b>getDutyCycleIndex should be default duty cycle index(16)
+<br>Setting the duty cycle index to 5
+<br>OperationFailureExceptionFunctionality Not Supported by Reader
+<br>Java-FUN-103.2:ResetFactory for duty cycle:PASSED
+<br><a name=Java-FUN-103.3</a><br><br><b>Java-FUN-103.3</b>
+<br><b>Description:</b>set session to s3 and doing a facotry reset 
+<br><b>Expected:</b>getsession should be defaulted to S0
+<br>Setting the session to S3
+<br>getSession: SESSION_S3
+<br>Calling Reset factory default
+<br><b>ActualResult</b>
+<br>getSession: SESSION_S0
+<br>Java-FUN-103.3:ResetFactory for sessions:PASSED
+<br><a name=Java-FUN-103.4</a><br><br><b>Java-FUN-103.4</b>
+<br><b>Description:</b>set MaxMemoryBankByteCount to 2 and doing a facotry reset 
+<br><b>Expected:</b>get MaxMemoryBankByteCount should be defaulted to 64
+<br>Setting the tag storage to 2
+<br>getMaxMemoryBankByteCount: 2
+<br>Calling Reset factory default
+<br><b>ActualResult</b>
+<br>getMaxMemoryBankByteCount: 64
+<br>Java-FUN-103.4:ResetFactory for tagstorage:PASSED
+<br><a name=Java-FUN-103.5</a><br><br><b>Java-FUN-103.5</b>
+<br><b>Description:</b>set RFmode to 6 and do a facotry reset 
+<br><b>Expected:</b>get RFmode should be defaulted to 0
+<br>Setting the RFmode to 6
+<br>Getting the RF mode before factory reset and setting the RF: 0
+<br>Getting the RF mode before factory reset: 6
+<br>Calling Reset factory default
+<br><b>ActualResult</b>
+<br>Getting the RF mode after factory reset: 0
+<br>Java-FUN-103.5:ResetFactory for RF mode:PASSED
+<br><a name=Java-FUN-103.6</a><br><br><b>Java-FUN-103.6</b>
+<br><b>Description:</b>set radio power to OFF and do a facotry reset 
+<br><b>Expected:</b>Radio should be n OFF statet
+<br>getRadioPowerState before reset factory default: ON
+<br>Setting the radio to OFF state
+<br>getRadioPowerState : OFF
+<br>Calling Reset factory default
+<br><b>ActualResult</b>
+<br>getRadioPowerState after reset factory default: OFF
+<br>Java-FUN-103.6:ResetFactory Radio power:PASSED
+<br><a name=Java-FUN-103.7</a><br><br><b>Java-FUN-103.7</b>
+<br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 12<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_INV_A_NOT_INV_B<br>Target: TARGET_INVENTORIED_STATE_S3
+<br>Prefilter added successfully
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>InvalidUsageExceptionPerformInventory Invalid parameter given
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br><br><br><br>
+<br>InvalidUsageExceptionPerformInventory Invalid parameter given

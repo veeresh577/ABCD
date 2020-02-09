@@ -1,0 +1,1 @@
+Java-FUN-000   G2Truncate    :PASS

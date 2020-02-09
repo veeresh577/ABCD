@@ -1,0 +1,19 @@
+Java-RM-008:DeleteActiveProfile:   PASSED
+Java-RM-010:getUSBOperationMode:   FAILED
+Java-RM-010:setUSBOperationMode:NETWORK:   FAILED
+Java-RM-010:setUSBOperationMode:ACTIVE_SYNC:   FAILED
+Java-RM-011:LEDinfo forLED_GREEN:   FAILED
+Java-RM-012:LEDinfo forLED_RED:   FAILED
+Java-RM-013:LEDinfo forLED_YELLOW:   FAILED
+Java-RM-014:setReaderLocalTime:   FAILED
+Java-RM-015:getTimeZone:   FAILED
+Java-RM-016:GetSysInfo:   FAILED
+Java-RM-017:GetReaderStatistics:   FAILED
+Java-RM-018:AllowLLRPConnectionOverride:false:   FAILED
+Java-RM-018:ReaderManagement_SetGetReaderName::   FAILED
+Java-RM-018:ReaderManagement_SetGetReaderDescription:   FAILED
+Java-RM-018:ReaderManagement_SetGetReaderLocation:   FAILED
+Java-RM-018:ReaderManagement_SetGetReaderContact:   FAILED
+Java-RM-019:ReaderManagement_SetGetTraceLevel:   PASSED
+
+Fri May 30 16:12:20 IST 2014

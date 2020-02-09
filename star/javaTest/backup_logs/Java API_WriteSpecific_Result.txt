@@ -1,0 +1,9 @@
+Java-WriteSpeci-001   WriteSpecificParams    :FAIL
+Java-WriteSpeci-002   WriteSpecificParams    :FAIL
+Java-WriteSpeci-002.1   WriteSpecificParams    :FAIL
+Java-WriteSpeci-002.2   WriteSpecificParams    :PASS
+Java-WriteSpeci-003.2   WriteSpecificParams    :PASS
+Java-WriteSpeci-004.2   WriteSpecificParams    :PASS
+Java-WriteSpeci-005.2   WriteSpecificParams    :PASS
+Java-WriteSpeci-006.2   WriteSpecificParams    :PASS
+Java-WriteSpeci-007.2   WriteSpecificParams    :PASS

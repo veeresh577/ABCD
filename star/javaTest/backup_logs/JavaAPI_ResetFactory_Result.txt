@@ -1,0 +1,6 @@
+Java-FUN-103.1:ResetFactory for Transmit Power:PASSED
+Java-FUN-103.2:ResetFactory for duty cycle:PASSED
+Java-FUN-103.3:ResetFactory for sessions:PASSED
+Java-FUN-103.4:ResetFactory for tagstorage:PASSED
+Java-FUN-103.5:ResetFactory for RF mode:PASSED
+Java-FUN-103.6:ResetFactory Radio power:PASSED

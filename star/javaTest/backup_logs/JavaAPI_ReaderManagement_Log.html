@@ -1,0 +1,197 @@
+<HTML><BODY>
+<br><b> Fri May 30 16:08:48 IST 2014</b><br>
+OS: Windows 7
+
+C dll version Info : 5.5.0.36    Reader IP: 257.235.206.142
+Reader Model : 75004
+FW Version : 1.2.6.0
+isConnected : true
+<br> NullPointerException:| getMessage: null| getLocalizedMessage: null| toString: java.lang.NullPointerException
+<br><a name=Java-RM-001</a><br><br><b>Java-RM-001</b>
+<br><b>Description: </b>Reader management Login
+<br><b>Expected Result:</b> Reader management should be logged in
+<br>Inside the Reader Management Login Method:
+<br>Attempting Login....
+<br> OperationFailureException:Error sending to transport interface
+<br><a name=Java-RM-002</a><br><br><b>Java-RM-002</b>
+<br><b>Description: </b>Reader management Logout
+<br><b>Expected Result:</b>Reader management should be logged out
+<br>Inside the Reader Management Logout Method:
+<br>Inside the Reader Management Login Method:
+<br>Attempting Login....
+<br> OperationFailureException:Error sending to transport interface
+<br>Inside the Reader Management Login Method:
+<br>Attempting Login....
+<br> OperationFailureException:Error sending to transport interface
+<br>Inside the Reader Management Login Method:
+<br>Attempting Login....
+<br> OperationFailureException:Error sending to transport interface
+<br><a name=Java-RM-003</a><br><br><b>Java-RM-003</b>
+<br><b>Description: </b>Test_GetAntennaMode
+<br><b>Expected Result:</b>GetAntennaMode should be BISTATIC or MONOSTATIC
+<br>Inside the Reader Management Test_GetAntennaMode Method:
+<br>Inside the Reader Management Login Method:
+<br>Attempting Login....
+<br> OperationFailureException:Error sending to transport interface
+<br>Inside the Reader Management Login Method:
+<br>Attempting Login....
+<br> OperationFailureException:Error sending to transport interface
+<br><a name=Java-RM-004</a><br><br><b>Java-RM-004</b>
+<br><b>Description: </b>Test_getProfileList
+<br><b>Expected Result:</b>All the Profiles From the ReaderManagement should be listed
+<br>Inside the Reader Management Test_getProfileList Method:
+<br>Inside the Reader Management Login Method:
+<br>Attempting Login....
+<br> OperationFailureException:Error sending to transport interface
+<br><a name=Java-RM-005</a><br><br><b>Java-RM-005</b>
+<br><b>Description: </b>Upload  abc.xml and all the profiles into the ReaderMenagement
+<br><b>Expected Result:</b> abc.xml and all the profiles should be Uploaded into the ReaderManagement
+<br>Inside the Reader Management Test_getProfileList Method:
+<br>Inside the Reader Management Login Method:
+<br>Attempting Login....
+<br> OperationFailureException:Error sending to transport interface
+<br><a name=Java-RM-006</a><br><br><b>Java-RM-006</b>
+<br><b>Description: </b>Download all the profiles from the ReaderManagement
+<br><b>Expected Result:</b>All the Profiles should be downloaded from the ReaderManagement
+<br>Inside the Reader Management Test_getProfileList Method:
+<br>Inside the Reader Management Login Method:
+<br>Attempting Login....
+<br> OperationFailureException:Error sending to transport interface
+<br><a name=Java-RM-007</a><br><br><b>Java-RM-007</b>
+<br><b>Description: </b>Delete Uploaded Profile from the ReaderManagement
+<br><b>Expected Result:</b> Remaining profiles from the ReaderManagement
+<br>Inside the Reader Management Test_DeletProfile() Method:
+<br>Inside the Reader Management Login Method:
+<br>Attempting Login....
+<br> OperationFailureException:Error sending to transport interface
+<br><a name=Java-RM-008</a><br><br><b>Java-RM-008</b>
+<br><b>Description: </b>Deleting Active profile
+<br>Expected Result:Profile should not be deleted
+<br>Actual Result: 
+<br>Inside the Reader Management Login Method:
+<br>Attempting Login....
+<br> OperationFailureException:Error sending to transport interface
+<br> OperationFailureException:Invalid Handle is provided
+<br>Java-RM-008:DeleteActiveProfile:   PASSED
+<br>Logout success
+<br><a name=Java-RM-009</a><br><br><b>Java-RM-009</b>
+<br><b>Description: </b>Test_getHealthStatus()
+<br><b>Expected Result:</b>HealthStatus_UP
+<br>Inside the Reader Management Test_getHealthStatus Method:
+<br>Inside the Reader Management Login Method:
+<br>Attempting Login....
+<br> OperationFailureException:Error sending to transport interface
+<br>Inside the Reader Management testUSB() Method:
+<br><a name=Java-RM-010</a><br><br><b>Java-RM-010</b>
+<br><b>Description:</b> get USBmode
+<br><b>Expected Result:</b>The LEDs should be glowing one after the other.
+<br>Inside the Reader Management Login Method:
+<br>Attempting Login....
+<br> OperationFailureException:Error sending to transport interface
+<br> InvalidUsageException:| getMessage: null| getLocalizedMessage: null| VendorMsg: | toString: com.mot.rfid.api3.InvalidUsageException| getTimeStamp: 16:11:07 2014/05/30
+<br>Java-RM-010:getUSBOperationMode:   FAILED
+<br> InvalidUsageException:| getMessage: null| getLocalizedMessage: null| VendorMsg: | toString: com.mot.rfid.api3.InvalidUsageException| getTimeStamp: 16:11:07 2014/05/30
+<br>Java-RM-010:setUSBOperationMode:NETWORK:   FAILED
+<br> InvalidUsageException:| getMessage: null| getLocalizedMessage: null| VendorMsg: | toString: com.mot.rfid.api3.InvalidUsageException| getTimeStamp: 16:11:07 2014/05/30
+<br>Java-RM-010:setUSBOperationMode:ACTIVE_SYNC:   FAILED
+<br>Logout success
+Inside the Reader Management Test_LEDinfo Method:
+<br>Inside the Reader Management Login Method:
+<br>Attempting Login....
+<br> OperationFailureException:Error sending to transport interface
+<br><a name=Java-RM-011</a><br><br><b>Java-RM-011</b>
+<br><b>Description:</b> Test_LEDinfo
+Inside the Reader Management Test_LEDinfo Method:
+setBlink: true
+getBlink: true
+setDuration 10 secs
+getDurationSeconds: 10
+<br> InvalidUsageException:| getMessage: null| getLocalizedMessage: null| VendorMsg: | toString: com.mot.rfid.api3.InvalidUsageException| getTimeStamp: 16:11:12 2014/05/30
+<br>Java-RM-011:LEDinfo forLED_GREEN:   FAILED
+<br><a name=Java-RM-012</a><br><br><b>Java-RM-012</b>
+<br><b>Description:</b> Test_LEDinfo
+Inside the Reader Management Test_LEDinfo Method:
+setBlink: true
+getBlink: true
+setDuration 10 secs
+getDurationSeconds: 10
+<br> InvalidUsageException:| getMessage: null| getLocalizedMessage: null| VendorMsg: | toString: com.mot.rfid.api3.InvalidUsageException| getTimeStamp: 16:11:12 2014/05/30
+<br>Java-RM-012:LEDinfo forLED_RED:   FAILED
+<br><a name=Java-RM-013</a><br><br><b>Java-RM-013</b>
+<br><b>Description:</b> Test_LEDinfo
+Inside the Reader Management Test_LEDinfo Method:
+setBlink: true
+getBlink: true
+setDuration 10 secs
+getDurationSeconds: 10
+<br> InvalidUsageException:| getMessage: null| getLocalizedMessage: null| VendorMsg: | toString: com.mot.rfid.api3.InvalidUsageException| getTimeStamp: 16:11:12 2014/05/30
+<br>Java-RM-013:LEDinfo forLED_YELLOW:   FAILED
+<br>Logout success
+<br><a name=Java-RM-014</a><br><br><b>Java-RM-014</b>
+<br><b>Description:</b> SetReaderLocalTime
+Inside the Reader Management Test_setReaderLocalTime Method:
+<br>Inside the Reader Management Login Method:
+<br>Attempting Login....
+<br> OperationFailureException:Error sending to transport interface
+System time:2014/05/30/Friday/16/11/23/121
+<br> InvalidUsageException:| getMessage: null| getLocalizedMessage: null| VendorMsg: | toString: com.mot.rfid.api3.InvalidUsageException| getTimeStamp: 16:11:23 2014/05/30
+<br>Java-RM-014:setReaderLocalTime:   FAILED
+<br>Logout success
+<br><a name=Java-RM-015</a><br><br><b>Java-RM-015</b>
+<br><b>Description:</b> GetTimeZone
+Inside the Reader Management Test_getTimeZone Method:
+<br>Inside the Reader Management Login Method:
+<br>Attempting Login....
+<br> OperationFailureException:Error sending to transport interface
+<br> OperationFailureException:Invalid Handle is provided
+<br>Java-RM-015:getTimeZone:   FAILED
+<br>Logout success
+<br><a name=Java-RM-016</a><br><br><b>Java-RM-016</b>
+<br><b>Description:</b> GetSysInfo
+Inside the Reader Management Test_GetSysInfo Method:
+<br>Inside the Reader Management Login Method:
+<br>Attempting Login....
+<br> OperationFailureException:Error sending to transport interface
+<br> InvalidUsageException:| getMessage: null| getLocalizedMessage: null| VendorMsg: | toString: com.mot.rfid.api3.InvalidUsageException| getTimeStamp: 16:11:43 2014/05/30
+<br>Java-RM-016:GetSysInfo:   FAILED
+<br>Logout success
+<br><a name=Java-RM-017</a><br><br><b>Java-RM-017</b>
+<br><b>Description:</b> GetReaderStatistics
+<br>Inside the Reader Management Test_getReaderStatistics Method:
+<br>Inside the Reader Management Login Method:
+<br>Attempting Login....
+<br> OperationFailureException:Error sending to transport interface
+<br> OperationFailureException:Invalid Handle is provided
+<br>Java-RM-017:GetReaderStatistics:   FAILED
+<br>Logout success
+<br>Inside the Reader Management Login Method:
+<br>Attempting Login....
+<br> OperationFailureException:Error sending to transport interface
+<br><a name=Java-RM-018</a><br><br><b>Java-RM-018</b>
+<br>Inside the Reader Management Test_llrpConnectionOverride() Method:
+<br><b>Description: </b> setAllowLLRPConnectionOverride: TRUE
+<br>Expected: AllowLLRPConnectionOverride should be set: TRUE
+<br> InvalidUsageException:| getMessage: null| getLocalizedMessage: null| VendorMsg: | toString: com.mot.rfid.api3.InvalidUsageException| getTimeStamp: 16:12:04 2014/05/30
+<br>Java-RM-018:AllowLLRPConnectionOverride:false:   FAILED
+<br>Logout success
+Inside the Reader Management Test_ReaderInfo Method:
+<br>Inside the Reader Management Login Method:
+<br>Attempting Login....
+<br> OperationFailureException:Error sending to transport interface
+<br> InvalidUsageException:| getMessage: null| getLocalizedMessage: null| VendorMsg: | toString: com.mot.rfid.api3.InvalidUsageException| getTimeStamp: 16:12:15 2014/05/30
+<br>Java-RM-018:ReaderManagement_SetGetReaderName::   FAILED
+<br> InvalidUsageException:| getMessage: null| getLocalizedMessage: null| VendorMsg: | toString: com.mot.rfid.api3.InvalidUsageException| getTimeStamp: 16:12:15 2014/05/30
+<br>Java-RM-018:ReaderManagement_SetGetReaderDescription:   FAILED
+<br> InvalidUsageException:| getMessage: null| getLocalizedMessage: null| VendorMsg: | toString: com.mot.rfid.api3.InvalidUsageException| getTimeStamp: 16:12:15 2014/05/30
+<br>Java-RM-018:ReaderManagement_SetGetReaderLocation:   FAILED
+<br> InvalidUsageException:| getMessage: null| getLocalizedMessage: null| VendorMsg: | toString: com.mot.rfid.api3.InvalidUsageException| getTimeStamp: 16:12:15 2014/05/30
+<br>Java-RM-018:ReaderManagement_SetGetReaderContact:   FAILED
+<br>Logout success
+Inside the Reader Management Test_tracelevel Method:
+<br><a name=Java-RM-019</a><br><br><b>Java-RM-019</b>
+
+<br>Java-RM-019:ReaderManagement_SetGetTraceLevel:   PASSED
+<br>Logout success
+<br><b> Fri May 30 16:12:20 IST 2014</b><br>
+</html>
+</body>

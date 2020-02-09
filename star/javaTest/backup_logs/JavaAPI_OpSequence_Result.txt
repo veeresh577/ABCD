@@ -1,0 +1,13 @@
+<br>Java-OpSeq-065:Op sequence :PASSED
+<br>Java-OpSeq-065.1:Op sequence :PASSED
+<br>Java-OpSeq-065.2:Op sequence :PASSED
+<br>Java-OpSeq-065.3:Op sequence :PASSED
+<br>Java-OpSeq-065.4:Op sequence :PASSED
+<br>Java-OpSeq-065.5:Op sequence :PASSED
+<br>Java-OpSeq-065.6:Op sequence :PASSED
+<br>Java-OpSeq-065.7:Op sequence :FAILED
+<br>Java-OpSeq-065.8:Op sequence :FAILED
+<br>Java-OpSeq-065.9:Op sequence :PASSED
+<br>Java-OpSeq-065.10:Op sequence :PASSED
+<br>Java-OpSeq-065.11:Op sequence :PASSED
+<br>Java-OpSeq-003.12:Op sequence :FAILED

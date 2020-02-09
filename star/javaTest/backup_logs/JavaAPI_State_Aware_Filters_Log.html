@@ -1,0 +1,485 @@
+<HTML>
+<BODY>
+
+<br><b> Fri May 30 14:55:24 IST 2014 -------------Testing StateAware Filters------------ </b><br>
+<br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_INV_A_NOT_INV_B<br>Target: TARGET_INVENTORIED_STATE_S0
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-001.1</a><br><br><b>Java-STATE_AWARE-001.1</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-001.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-001.2</a><br><br><b>Java-STATE_AWARE-001.2</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>BEDD11112222333344445555<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-001.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-001.3</a><br><br><b>Java-STATE_AWARE-001.3</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-001.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_INV_A<br>Target: TARGET_INVENTORIED_STATE_S0
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-002.1</a><br><br><b>Java-STATE_AWARE-002.1</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>111122223333444455556666<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-002.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-002.2</a><br><br><b>Java-STATE_AWARE-002.2</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>The tags are not reported<br>Java-STATE_AWARE-002.2 StateAware-filter: PASS
+<br><a name=Java-STATE_AWARE-002.3</a><br><br><b>Java-STATE_AWARE-002.3</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>A22FA22FA22FA22FA22FA22F<br>111122223333444455556666<br>Java-STATE_AWARE-002.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_NOT_INV_B<br>Target: TARGET_INVENTORIED_STATE_S0
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-003.1</a><br><br><b>Java-STATE_AWARE-003.1</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-003.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-003.2</a><br><br><b>Java-STATE_AWARE-003.2</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-003.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-003.3</a><br><br><b>Java-STATE_AWARE-003.3</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-003.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_INV_A2BB2A<br>Target: TARGET_INVENTORIED_STATE_S0
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-004.1</a><br><br><b>Java-STATE_AWARE-004.1</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>111122223333444455556666<br>Java-STATE_AWARE-004.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-004.2</a><br><br><b>Java-STATE_AWARE-004.2</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-004.2 StateAware-filter: FAIL
+<br><br><a name=Java-STATE_AWARE-004.3</a><br><br><b>Java-STATE_AWARE-004.3</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-004.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_INV_B_NOT_INV_A<br>Target: TARGET_INVENTORIED_STATE_S0
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-005.1</a><br><br><b>Java-STATE_AWARE-005.1</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-005.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-005.2</a><br><br><b>Java-STATE_AWARE-005.2</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-005.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-005.3</a><br><br><b>Java-STATE_AWARE-005.3</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>111122223333444455556666<br>Java-STATE_AWARE-005.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_INV_B<br>Target: TARGET_INVENTORIED_STATE_S0
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-006.1</a><br><br><b>Java-STATE_AWARE-006.1</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>Java-STATE_AWARE-006.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-006.2</a><br><br><b>Java-STATE_AWARE-006.2</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-006.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-006.3</a><br><br><b>Java-STATE_AWARE-006.3</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>111122223333444455556666<br>Java-STATE_AWARE-006.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_NOT_INV_A<br>Target: TARGET_INVENTORIED_STATE_S0
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-007.1</a><br><br><b>Java-STATE_AWARE-007.1</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>111122223333444455556666<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-007.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-007.2</a><br><br><b>Java-STATE_AWARE-007.2</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>The tags are not reported<br>Java-STATE_AWARE-007.2 StateAware-filter: PASS
+<br><a name=Java-STATE_AWARE-007.3</a><br><br><b>Java-STATE_AWARE-007.3</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>BEDD11112222333344445555<br>111122223333444455556666<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-007.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_NOT_INV_A2BB2A<br>Target: TARGET_INVENTORIED_STATE_S0
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-008.1</a><br><br><b>Java-STATE_AWARE-008.1</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>Java-STATE_AWARE-008.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-008.2</a><br><br><b>Java-STATE_AWARE-008.2</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>A22FA22FA22FA22FA22FA22F<br>Java-STATE_AWARE-008.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-008.3</a><br><br><b>Java-STATE_AWARE-008.3</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-008.3 StateAware-filter: FAIL
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_INV_A_NOT_INV_B<br>Target: TARGET_INVENTORIED_STATE_S1
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-009.1</a><br><br><b>Java-STATE_AWARE-009.1</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-009.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-009.2</a><br><br><b>Java-STATE_AWARE-009.2</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-009.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-009.3</a><br><br><b>Java-STATE_AWARE-009.3</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>Java-STATE_AWARE-009.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_INV_A<br>Target: TARGET_INVENTORIED_STATE_S1
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-010.1</a><br><br><b>Java-STATE_AWARE-010.1</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-010.1 StateAware-filter: FAIL
+<br><br><a name=Java-STATE_AWARE-010.2</a><br><br><b>Java-STATE_AWARE-010.2</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-010.2 StateAware-filter: FAIL
+<br><br><a name=Java-STATE_AWARE-010.3</a><br><br><b>Java-STATE_AWARE-010.3</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>111122223333444455556666<br>Java-STATE_AWARE-010.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_NOT_INV_B<br>Target: TARGET_INVENTORIED_STATE_S1
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-011.1</a><br><br><b>Java-STATE_AWARE-011.1</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-011.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-011.2</a><br><br><b>Java-STATE_AWARE-011.2</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>111122223333444455556666<br>Java-STATE_AWARE-011.2 StateAware-filter: FAIL
+<br><br><a name=Java-STATE_AWARE-011.3</a><br><br><b>Java-STATE_AWARE-011.3</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-011.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_INV_A2BB2A<br>Target: TARGET_INVENTORIED_STATE_S1
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-012.1</a><br><br><b>Java-STATE_AWARE-012.1</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>A22FA22FA22FA22FA22FA22F<br>111122223333444455556666<br>Java-STATE_AWARE-012.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-012.2</a><br><br><b>Java-STATE_AWARE-012.2</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>111122223333444455556666<br>A22FA22FA22FA22FA22FA22F<br>Java-STATE_AWARE-012.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-012.3</a><br><br><b>Java-STATE_AWARE-012.3</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-012.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_INV_B_NOT_INV_A<br>Target: TARGET_INVENTORIED_STATE_S1
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-013.1</a><br><br><b>Java-STATE_AWARE-013.1</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>Java-STATE_AWARE-013.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-013.2</a><br><br><b>Java-STATE_AWARE-013.2</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-013.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-013.3</a><br><br><b>Java-STATE_AWARE-013.3</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>111122223333444455556666<br>Java-STATE_AWARE-013.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_INV_B<br>Target: TARGET_INVENTORIED_STATE_S1
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-014.1</a><br><br><b>Java-STATE_AWARE-014.1</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-014.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-014.2</a><br><br><b>Java-STATE_AWARE-014.2</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>111122223333444455556666<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-014.2 StateAware-filter: FAIL
+<br><br><a name=Java-STATE_AWARE-014.3</a><br><br><b>Java-STATE_AWARE-014.3</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>111122223333444455556666<br>Java-STATE_AWARE-014.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_NOT_INV_A<br>Target: TARGET_INVENTORIED_STATE_S1
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-015.1</a><br><br><b>Java-STATE_AWARE-015.1</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>A22FA22FA22FA22FA22FA22F<br>Java-STATE_AWARE-015.1 StateAware-filter: FAIL
+<br><br><a name=Java-STATE_AWARE-015.2</a><br><br><b>Java-STATE_AWARE-015.2</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-015.2 StateAware-filter: FAIL
+<br><br><a name=Java-STATE_AWARE-015.3</a><br><br><b>Java-STATE_AWARE-015.3</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-015.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_NOT_INV_A2BB2A<br>Target: TARGET_INVENTORIED_STATE_S1
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-016.1</a><br><br><b>Java-STATE_AWARE-016.1</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-016.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-016.2</a><br><br><b>Java-STATE_AWARE-016.2</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>Java-STATE_AWARE-016.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-016.3</a><br><br><b>Java-STATE_AWARE-016.3</b>
+<br>Singulation:  <br>Session: SESSION_S1<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>BEDD11112222333344445555<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-016.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_INV_A_NOT_INV_B<br>Target: TARGET_INVENTORIED_STATE_S2
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-017.1</a><br><br><b>Java-STATE_AWARE-017.1</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-017.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-017.2</a><br><br><b>Java-STATE_AWARE-017.2</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-017.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-017.3</a><br><br><b>Java-STATE_AWARE-017.3</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>Java-STATE_AWARE-017.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_INV_A<br>Target: TARGET_INVENTORIED_STATE_S2
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-018.1</a><br><br><b>Java-STATE_AWARE-018.1</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-018.1 StateAware-filter: FAIL
+<br><br><a name=Java-STATE_AWARE-018.2</a><br><br><b>Java-STATE_AWARE-018.2</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-018.2 StateAware-filter: FAIL
+<br><br><a name=Java-STATE_AWARE-018.3</a><br><br><b>Java-STATE_AWARE-018.3</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>111122223333444455556666<br>BEDD11112222333344445555<br>Java-STATE_AWARE-018.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_NOT_INV_B<br>Target: TARGET_INVENTORIED_STATE_S2
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-019.1</a><br><br><b>Java-STATE_AWARE-019.1</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-019.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-019.2</a><br><br><b>Java-STATE_AWARE-019.2</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>111122223333444455556666<br>A22FA22FA22FA22FA22FA22F<br>Java-STATE_AWARE-019.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-019.3</a><br><br><b>Java-STATE_AWARE-019.3</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-019.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_INV_A2BB2A<br>Target: TARGET_INVENTORIED_STATE_S2
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-020.1</a><br><br><b>Java-STATE_AWARE-020.1</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-020.1 StateAware-filter: FAIL
+<br><br><a name=Java-STATE_AWARE-020.2</a><br><br><b>Java-STATE_AWARE-020.2</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>111122223333444455556666<br>Java-STATE_AWARE-020.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-020.3</a><br><br><b>Java-STATE_AWARE-020.3</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>111122223333444455556666<br>BEDD11112222333344445555<br>Java-STATE_AWARE-020.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_INV_B_NOT_INV_A<br>Target: TARGET_INVENTORIED_STATE_S2
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-021.1</a><br><br><b>Java-STATE_AWARE-021.1</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>Java-STATE_AWARE-021.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-021.2</a><br><br><b>Java-STATE_AWARE-021.2</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-021.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-021.3</a><br><br><b>Java-STATE_AWARE-021.3</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>111122223333444455556666<br>Java-STATE_AWARE-021.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_INV_B<br>Target: TARGET_INVENTORIED_STATE_S2
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-022.1</a><br><br><b>Java-STATE_AWARE-022.1</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-022.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-022.2</a><br><br><b>Java-STATE_AWARE-022.2</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>111122223333444455556666<br>Java-STATE_AWARE-022.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-022.3</a><br><br><b>Java-STATE_AWARE-022.3</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>111122223333444455556666<br>Java-STATE_AWARE-022.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_NOT_INV_A<br>Target: TARGET_INVENTORIED_STATE_S2
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-023.1</a><br><br><b>Java-STATE_AWARE-023.1</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-023.1 StateAware-filter: FAIL
+<br><br><a name=Java-STATE_AWARE-023.2</a><br><br><b>Java-STATE_AWARE-023.2</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-023.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-023.3</a><br><br><b>Java-STATE_AWARE-023.3</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>111122223333444455556666<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-023.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_NOT_INV_A2BB2A<br>Target: TARGET_INVENTORIED_STATE_S2
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-024.1</a><br><br><b>Java-STATE_AWARE-024.1</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-024.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-024.2</a><br><br><b>Java-STATE_AWARE-024.2</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>BEDD11112222333344445555<br>111122223333444455556666<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>Java-STATE_AWARE-024.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-024.3</a><br><br><b>Java-STATE_AWARE-024.3</b>
+<br>Singulation:  <br>Session: SESSION_S2<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>111122223333444455556666<br>A22FA22FA22FA22FA22FA22F<br>Java-STATE_AWARE-024.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_INV_A_NOT_INV_B<br>Target: TARGET_INVENTORIED_STATE_S3
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-025.1</a><br><br><b>Java-STATE_AWARE-025.1</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-025.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-025.2</a><br><br><b>Java-STATE_AWARE-025.2</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-025.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-025.3</a><br><br><b>Java-STATE_AWARE-025.3</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>Java-STATE_AWARE-025.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_INV_A<br>Target: TARGET_INVENTORIED_STATE_S3
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-026.1</a><br><br><b>Java-STATE_AWARE-026.1</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>B22FB22FB22FB22FB22FB22F<br>111122223333444455556666<br>Java-STATE_AWARE-026.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-026.2</a><br><br><b>Java-STATE_AWARE-026.2</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-026.2 StateAware-filter: FAIL
+<br><br><a name=Java-STATE_AWARE-026.3</a><br><br><b>Java-STATE_AWARE-026.3</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-026.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_NOT_INV_B<br>Target: TARGET_INVENTORIED_STATE_S3
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-027.1</a><br><br><b>Java-STATE_AWARE-027.1</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>The tags are not reported<br>Java-STATE_AWARE-027.1 StateAware-filter: PASS
+<br><a name=Java-STATE_AWARE-027.2</a><br><br><b>Java-STATE_AWARE-027.2</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>A22FA22FA22FA22FA22FA22F<br>111122223333444455556666<br>Java-STATE_AWARE-027.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-027.3</a><br><br><b>Java-STATE_AWARE-027.3</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-027.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_INV_A2BB2A<br>Target: TARGET_INVENTORIED_STATE_S3
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-028.1</a><br><br><b>Java-STATE_AWARE-028.1</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-028.1 StateAware-filter: FAIL
+<br><br><a name=Java-STATE_AWARE-028.2</a><br><br><b>Java-STATE_AWARE-028.2</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>BEDD11112222333344445555<br>111122223333444455556666<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-028.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-028.3</a><br><br><b>Java-STATE_AWARE-028.3</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-028.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_INV_B_NOT_INV_A<br>Target: TARGET_INVENTORIED_STATE_S3
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-029.1</a><br><br><b>Java-STATE_AWARE-029.1</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-029.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-029.2</a><br><br><b>Java-STATE_AWARE-029.2</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-029.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-029.3</a><br><br><b>Java-STATE_AWARE-029.3</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>111122223333444455556666<br>Java-STATE_AWARE-029.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_INV_B<br>Target: TARGET_INVENTORIED_STATE_S3
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-030.1</a><br><br><b>Java-STATE_AWARE-030.1</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-030.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-030.2</a><br><br><b>Java-STATE_AWARE-030.2</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-030.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-030.3</a><br><br><b>Java-STATE_AWARE-030.3</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>111122223333444455556666<br>Java-STATE_AWARE-030.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_NOT_INV_A<br>Target: TARGET_INVENTORIED_STATE_S3
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-031.1</a><br><br><b>Java-STATE_AWARE-031.1</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>BEDD11112222333344445555<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-031.1 StateAware-filter: FAIL
+<br><br><a name=Java-STATE_AWARE-031.2</a><br><br><b>Java-STATE_AWARE-031.2</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-031.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-031.3</a><br><br><b>Java-STATE_AWARE-031.3</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>111122223333444455556666<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-031.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_NOT_INV_A2BB2A<br>Target: TARGET_INVENTORIED_STATE_S3
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-032.1</a><br><br><b>Java-STATE_AWARE-032.1</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_A<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>BEDD11112222333344445555<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-032.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-032.2</a><br><br><b>Java-STATE_AWARE-032.2</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_B<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-032.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-032.3</a><br><br><b>Java-STATE_AWARE-032.3</b>
+<br>Singulation:  <br>Session: SESSION_S3<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>B22FB22FB22FB22FB22FB22F<br>111122223333444455556666<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-032.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_ASRT_SL_NOT_DSRT_SL<br>Target: TARGET_SL
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-033.1</a><br><br><b>Java-STATE_AWARE-033.1</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_ALL
+<br>A22FA22FA22FA22FA22FA22F<br>111122223333444455556666<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-033.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-033.2</a><br><br><b>Java-STATE_AWARE-033.2</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_ASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-033.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-033.3</a><br><br><b>Java-STATE_AWARE-033.3</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>BEDD11112222333344445555<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-033.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_ASRT_SL<br>Target: TARGET_SL
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-034.1</a><br><br><b>Java-STATE_AWARE-034.1</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_ALL
+<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>111122223333444455556666<br>Java-STATE_AWARE-034.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-034.2</a><br><br><b>Java-STATE_AWARE-034.2</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_ASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-034.2 StateAware-filter: FAIL
+<br><br><a name=Java-STATE_AWARE-034.3</a><br><br><b>Java-STATE_AWARE-034.3</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-034.3 StateAware-filter: FAIL
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_NOT_DSRT_SL<br>Target: TARGET_SL
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-035.1</a><br><br><b>Java-STATE_AWARE-035.1</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_ALL
+<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>111122223333444455556666<br>Java-STATE_AWARE-035.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-035.2</a><br><br><b>Java-STATE_AWARE-035.2</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_ASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-035.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-035.3</a><br><br><b>Java-STATE_AWARE-035.3</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>Java-STATE_AWARE-035.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_NEG_SL<br>Target: TARGET_SL
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-036.1</a><br><br><b>Java-STATE_AWARE-036.1</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_ALL
+<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>111122223333444455556666<br>A22FA22FA22FA22FA22FA22F<br>Java-STATE_AWARE-036.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-036.2</a><br><br><b>Java-STATE_AWARE-036.2</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_ASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-036.2 StateAware-filter: FAIL
+<br><br><a name=Java-STATE_AWARE-036.3</a><br><br><b>Java-STATE_AWARE-036.3</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-036.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_DSRT_SL_NOT_ASRT_SL<br>Target: TARGET_SL
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-037.1</a><br><br><b>Java-STATE_AWARE-037.1</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_ALL
+<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>A22FA22FA22FA22FA22FA22F<br>111122223333444455556666<br>Java-STATE_AWARE-037.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-037.2</a><br><br><b>Java-STATE_AWARE-037.2</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_ASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-037.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-037.3</a><br><br><b>Java-STATE_AWARE-037.3</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-037.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_DSRT_SL<br>Target: TARGET_SL
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-038.1</a><br><br><b>Java-STATE_AWARE-038.1</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_ALL
+<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>111122223333444455556666<br>BEDD11112222333344445555<br>Java-STATE_AWARE-038.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-038.2</a><br><br><b>Java-STATE_AWARE-038.2</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_ASSERTED
+<br>BEDD11112222333344445555<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>Java-STATE_AWARE-038.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-038.3</a><br><br><b>Java-STATE_AWARE-038.3</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-038.3 StateAware-filter: PASS
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_NOT_ASRT_SL<br>Target: TARGET_SL
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-039.1</a><br><br><b>Java-STATE_AWARE-039.1</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_ALL
+<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>111122223333444455556666<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-039.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-039.2</a><br><br><b>Java-STATE_AWARE-039.2</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_ASSERTED
+<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-039.2 StateAware-filter: FAIL
+<br><br><a name=Java-STATE_AWARE-039.3</a><br><br><b>Java-STATE_AWARE-039.3</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>Java-STATE_AWARE-039.3 StateAware-filter: FAIL
+<br><br>State Aware Filter Action with :<br>BitOffset: 32<br>TagPatternBitCount: 16<br>TagPattern: 111122223333444455556666<br>MemoryBank: MEMORY_BANK_EPC
+<br>FilterAction: FILTER_ACTION_STATE_AWARE<br>StateAwareAction: STATE_AWARE_ACTION_NOT_NEG_SL<br>Target: TARGET_SL
+<br>Prefilter added successfully
+<br><a name=Java-STATE_AWARE-040.1</a><br><br><b>Java-STATE_AWARE-040.1</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_ALL
+<br>B22FB22FB22FB22FB22FB22F<br>A22FA22FA22FA22FA22FA22F<br>BEDD11112222333344445555<br>111122223333444455556666<br>Java-STATE_AWARE-040.1 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-040.2</a><br><br><b>Java-STATE_AWARE-040.2</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_ASSERTED
+<br>A22FA22FA22FA22FA22FA22F<br>B22FB22FB22FB22FB22FB22F<br>BEDD11112222333344445555<br>Java-STATE_AWARE-040.2 StateAware-filter: PASS
+<br><br><a name=Java-STATE_AWARE-040.3</a><br><br><b>Java-STATE_AWARE-040.3</b>
+<br>Singulation:  <br>Session: SESSION_S0<br>InventoryState: INVENTORY_STATE_AB_FLIP<br>SLFlag: SL_FLAG_DEASSERTED
+<br>111122223333444455556666<br>B22FB22FB22FB22FB22FB22F<br>Java-STATE_AWARE-040.3 StateAware-filter: PASS
+<br>

@@ -1,0 +1,1 @@
+Java-CAP-001:ReaderCapabilities:   PASSED

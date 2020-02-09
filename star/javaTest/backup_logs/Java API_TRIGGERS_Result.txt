@@ -1,0 +1,4 @@
+Java-RFIDEvents-003   Testing TRIGGERS and EVENTS    :PASS
+Java-RFIDEvents-004   Testing TRIGGERS and EVENTS    :PASS
+Java-RFIDEvents-005   Testing TRIGGERS and EVENTS    :PASS
+Java-RFIDEvents-006   Testing TRIGGERS and EVENTS    :PASS

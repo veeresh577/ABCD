@@ -1,0 +1,332 @@
+Java-CONFIG-285:Tag count 100:PASSED
+Java-CONFIG-286:Tag count 1000:PASSED
+Java-CONFIG-287:Tag count 2000:PASSED
+Java-CONFIG-288:Tag count 3000:PASSED
+Java-CONFIG-289:Tag count 4096:PASSED
+Java-CONFIG-290:Tag count 5000:PASSED
+Java-CONFIG-291.1:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-291.2:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-291.3:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-291.4:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-291.5:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-291.6:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-291.7:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-291.8:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-292.1:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-292.2:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-292.3:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-292.4:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-292.5:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-292.6:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-292.7:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-292.8:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-292.9:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-292.10:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-292.11:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-292.12:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-292.13:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-292.14:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-292.15:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-292.16:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-292.17:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-292.18:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-293.1:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-293.2:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-293.3:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-293.4:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-293.5:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-293.6:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-293.7:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-293.8:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-293.9:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-293.10:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-293.11:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-293.12:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-293.13:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-293.14:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-293.15:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-293.16:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-293.17:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-293.18:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-293.19:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-293.20:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-293.21:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-293.22:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-293.23:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-293.24:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-293.25:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-293.26:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-293.27:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-293.28:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-293.29:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-293.30:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-293.31:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-293.32:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-293.33:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-293.34:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-293.35:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-293.36:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-293.37:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-293.38:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-293.39:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-293.40:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-293.41:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-293.42:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-293.43:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-293.44:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-293.45:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-293.46:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-293.47:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-293.48:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.1:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.2:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.3:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.4:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.5:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.6:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.7:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.8:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.9:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.10:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.11:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.12:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.13:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.14:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.15:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.16:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.17:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.18:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.19:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.20:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.21:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.22:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.23:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.24:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.25:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.26:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.27:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.28:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.29:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.30:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.31:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.32:MaxMemoryBankByteCount 2:PASSED
+Java-CONFIG-294.33:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.34:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.35:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.36:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.37:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.38:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.39:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.40:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.41:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.42:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.43:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.44:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.45:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.46:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.47:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.48:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.49:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.50:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.51:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.52:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.53:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.54:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.55:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.56:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.57:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.58:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.59:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.60:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.61:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.62:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.63:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.64:MaxMemoryBankByteCount 4:PASSED
+Java-CONFIG-294.65:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.66:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.67:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.68:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.69:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.70:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.71:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.72:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.73:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.74:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.75:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.76:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.77:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.78:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.79:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.80:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.81:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.82:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.83:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.84:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.85:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.86:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.87:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.88:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.89:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.90:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.91:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.92:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.93:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.94:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.95:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.96:MaxMemoryBankByteCount 8:PASSED
+Java-CONFIG-294.97:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.98:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.99:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.100:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.101:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.102:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.103:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.104:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.105:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.106:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.107:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.108:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.109:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.110:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.111:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.112:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.113:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.114:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.115:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.116:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.117:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.118:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.119:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.120:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.121:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.122:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.123:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.124:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.125:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.126:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.127:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.128:MaxMemoryBankByteCount 16:PASSED
+Java-CONFIG-294.129:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.130:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.131:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.132:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.133:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.134:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.135:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.136:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.137:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.138:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.139:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.140:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.141:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.142:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.143:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.144:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.145:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.146:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.147:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.148:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.149:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.150:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.151:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.152:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.153:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.154:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.155:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.156:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.157:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.158:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.159:MaxMemoryBankByteCount 32:PASSED
+Java-CONFIG-294.160:MaxMemoryBankByteCount 32:PASSED
+<br>Java-CONFIG-295.1:setMaxTagIDLength 2:PASSED
+<br>Java-CONFIG-295.2:setMaxTagIDLength 2:PASSED
+<br>Java-CONFIG-295.3:setMaxTagIDLength 2:PASSED
+<br>Java-CONFIG-295.4:setMaxTagIDLength 2:PASSED
+<br>Java-CONFIG-295.5:setMaxTagIDLength 2:PASSED
+<br>Java-CONFIG-295.6:setMaxTagIDLength 2:PASSED
+<br>Java-CONFIG-295.7:setMaxTagIDLength 2:PASSED
+<br>Java-CONFIG-295.8:setMaxTagIDLength 2:PASSED
+<br>Java-CONFIG-295.9:setMaxTagIDLength 2:PASSED
+<br>Java-CONFIG-295.10:setMaxTagIDLength 2:PASSED
+<br>Java-CONFIG-296.1:setMaxTagIDLength 4:PASSED
+<br>Java-CONFIG-296.2:setMaxTagIDLength 4:PASSED
+<br>Java-CONFIG-296.3:setMaxTagIDLength 4:PASSED
+<br>Java-CONFIG-296.4:setMaxTagIDLength 4:PASSED
+<br>Java-CONFIG-296.5:setMaxTagIDLength 4:PASSED
+<br>Java-CONFIG-296.6:setMaxTagIDLength 4:PASSED
+<br>Java-CONFIG-296.7:setMaxTagIDLength 4:PASSED
+<br>Java-CONFIG-296.8:setMaxTagIDLength 4:PASSED
+<br>Java-CONFIG-296.9:setMaxTagIDLength 4:PASSED
+<br>Java-CONFIG-296.10:setMaxTagIDLength 4:PASSED
+<br>Java-CONFIG-297.1:setMaxTagIDLength 6:PASSED
+<br>Java-CONFIG-297.2:setMaxTagIDLength 6:PASSED
+<br>Java-CONFIG-297.3:setMaxTagIDLength 6:PASSED
+<br>Java-CONFIG-297.4:setMaxTagIDLength 6:PASSED
+<br>Java-CONFIG-297.5:setMaxTagIDLength 6:PASSED
+<br>Java-CONFIG-297.6:setMaxTagIDLength 6:PASSED
+<br>Java-CONFIG-297.7:setMaxTagIDLength 6:PASSED
+<br>Java-CONFIG-297.8:setMaxTagIDLength 6:PASSED
+<br>Java-CONFIG-297.9:setMaxTagIDLength 6:PASSED
+<br>Java-CONFIG-297.10:setMaxTagIDLength 6:PASSED
+<br>Java-CONFIG-298.1:setMaxTagIDLength 8:PASSED
+<br>Java-CONFIG-298.2:setMaxTagIDLength 8:PASSED
+<br>Java-CONFIG-298.3:setMaxTagIDLength 8:PASSED
+<br>Java-CONFIG-298.4:setMaxTagIDLength 8:PASSED
+<br>Java-CONFIG-298.5:setMaxTagIDLength 8:PASSED
+<br>Java-CONFIG-298.6:setMaxTagIDLength 8:PASSED
+<br>Java-CONFIG-298.7:setMaxTagIDLength 8:PASSED
+<br>Java-CONFIG-298.8:setMaxTagIDLength 8:PASSED
+<br>Java-CONFIG-298.9:setMaxTagIDLength 8:PASSED
+<br>Java-CONFIG-298.10:setMaxTagIDLength 8:PASSED
+<br>Java-CONFIG-299.1:setMaxTagIDLength 10:PASSED
+<br>Java-CONFIG-299.2:setMaxTagIDLength 10:PASSED
+<br>Java-CONFIG-299.3:setMaxTagIDLength 10:PASSED
+<br>Java-CONFIG-299.4:setMaxTagIDLength 10:PASSED
+<br>Java-CONFIG-299.5:setMaxTagIDLength 10:PASSED
+<br>Java-CONFIG-299.6:setMaxTagIDLength 10:PASSED
+<br>Java-CONFIG-299.7:setMaxTagIDLength 10:PASSED
+<br>Java-CONFIG-299.8:setMaxTagIDLength 10:PASSED
+<br>Java-CONFIG-299.9:setMaxTagIDLength 10:PASSED
+<br>Java-CONFIG-299.10:setMaxTagIDLength 10:PASSED
+<br>Java-CONFIG-300:discardTagsOnInventoryStop :FAILED
+<br>Java-CONFIG-301:enableAccessReports :PASSED
+Java-CONFIG-302setTagFields:ANTENNA_ID:PASSED
+
+Java-CONFIG-303setTagFields:CHANNEL_INDEX:PASSED
+
+Java-CONFIG-304setTagFields:CRC:PASSED
+
+Java-CONFIG-305setTagFields:FIRST_SEEN_TIME_STAMP:PASSED
+
+Java-CONFIG-306setTagFields:LAST_SEEN_TIME_STAMP:PASSED
+
+Java-CONFIG-307setTagFields:PC:PASSED
+
+Java-CONFIG-308setTagFields:PEAK_RSSI:PASSED
+
+Java-CONFIG-309setTagFields:PHASE_INFO:PASSED
+
+Java-CONFIG-310setTagFields:TAG_SEEN_COUNT:PASSED
+
+Java-CONFIG-311setTagFields:XPC:PASSED
+
+Java-CONFIG-312setTagFields:ANTENNA_ID:PASSED
+
+Java-CONFIG-313setTagFields:CHANNEL_INDEX:PASSED
+
+Java-CONFIG-314setTagFields:CRC:PASSED
+
+Java-CONFIG-315setTagFields:FIRST_SEEN_TIME_STAMP:PASSED
+
+Java-CONFIG-316setTagFields:LAST_SEEN_TIME_STAMP:PASSED
+
+Java-CONFIG-317setTagFields:PC:PASSED
+
+Java-CONFIG-318setTagFields:PEAK_RSSI:PASSED
+
+Java-CONFIG-319setTagFields:PHASE_INFO:PASSED
+
+Java-CONFIG-320setTagFields:TAG_SEEN_COUNT:PASSED
+
+Java-CONFIG-321setTagFields:XPC :FAILED
+

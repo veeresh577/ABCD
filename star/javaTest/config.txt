@@ -1,0 +1,5 @@
+APIVersion: RFID_API3_5_5
+readerIP: 169.254.10.1
+readertype: FX
+antennaList: 0
+antSeq: 0
